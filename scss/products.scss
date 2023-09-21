@@ -1,0 +1,79 @@
+.products {
+    &-filter {
+        background-color: #ccc;
+    }
+    &-container {
+
+        .products-item {
+            margin: 5px;
+            max-width: 230px;
+            width: 100%;
+            
+            &__img {
+                padding: 10px 10px;
+                text-align: center; 
+                margin-bottom: 5px;
+                background-color: #fff;
+            }
+        }
+        .products-item__content { 
+            height: 210px;
+            background-color: #1A6EC1;
+            padding: 30px 12px 2px;
+            color: #fff;
+            
+            &-title {
+                font-size: 12px;
+                text-align: left;
+                margin-bottom: 5px;
+            }
+            &-text {
+                text-align: left;
+                font-size: 10px;
+                font-weight: 300;
+                margin-bottom: 5px;
+            }
+            &-price {
+                font-size: 18px;
+                font-weight: 700;
+                text-align: center !important;
+                margin-bottom: 10px;
+            }
+            &-buy {
+                background-color: #fff;
+                color: #1A6EC1;
+                padding: 4px 6px;
+                border-radius: 2px;
+                transition: .2s ease-in-out;
+                &:hover {
+                    background-color: darken($color: #fff, $amount: 10);
+                }
+            }
+            &-korzina {
+                background-color: transparent;
+                border: 1px solid #fff;
+                border-radius: 2px;
+                color: #fff;
+                padding: 4px 6px;
+                transition: .2s ease-in-out;
+                &:hover {
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+            &-rasrochka {
+                display: block;
+                margin-top: 10px;
+                padding: 4px 6px;
+                background-color: #FF0000;
+                color: #fff;
+                transition: .2s ease-in-out;
+                &:hover {
+                    background-color: darken($color: #FF0000, $amount: 10);
+                }
+            }
+        }
+    }
+}
+
+

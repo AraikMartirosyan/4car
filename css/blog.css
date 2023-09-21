@@ -1,0 +1,35 @@
+.blog {
+  padding: 50px 0 50px;
+}
+.blog img {
+  width: 100%;
+  height: auto;
+}
+.blog a {
+  color: #000;
+}
+.blog-aside-date {
+  font-size: 20px;
+  font-weight: 400;
+}
+.blog-aside-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.blog-aside-text {
+  font-size: 20px;
+  font-weight: 300;
+}
+.blog-item {
+  margin: 10px;
+  max-width: 360px;
+}
+.blog-item-date {
+  font-size: 18px;
+  font-weight: 400;
+}
+.blog-item-title {
+  font-size: 28px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=blog.css.map */

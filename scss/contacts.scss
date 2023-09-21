@@ -1,0 +1,101 @@
+.contacts {
+    text-align: center;
+    padding: 50px 0 40px;
+    &-container {
+        padding: 20px 0;
+        min-height: 500px;
+        background-image: url("../images/contact-map.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        &__item {
+            color: #000;
+            text-decoration: none;
+            min-height: 250px;
+            max-width: 270px;
+            width: 100%;
+            background-color: #EBF2F8;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: .2s ease-in-out;
+            padding: 8px;
+            a {
+                color: #000;
+            }
+            img {
+                margin-bottom: 10px;
+            }
+            h6 {
+                margin-bottom: 14px;
+                font-weight: 600;
+            }
+            &:hover {
+                background-color: darken($color: #EBF2F8, $amount: 5);
+                color: #000;
+            }
+
+        }
+    }
+}
+
+.requisites {
+    text-align: center;
+    &-title {
+        color: #1A6EC1;
+        font-size: 60px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .requisites {
+        &-title {
+            font-size: 52px;
+        }
+        p {
+            font-size: 24px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .requisites {
+        &-title {
+            font-size: 48px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .requisites {
+        &-title {
+            font-size: 38px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .requisites {
+        &-title {
+            font-size: 32px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.blog {
+    padding: 50px 0 50px;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    a {
+        color: #000;
+    }
+    &-aside {
+        &-date {
+            font-size: 20px;
+            font-weight: 400;
+        }
+        &-title {
+            font-size: 32px;
+            font-weight: 600;
+        }
+        &-text {
+            font-size: 20px;
+            font-weight: 300;
+        }
+    }
+
+    &-item {
+        margin: 10px;
+        max-width: 360px;
+        &-date {
+            font-size: 18px;
+            font-weight: 400;
+        }
+        &-title {
+            font-size: 28px;
+            font-weight: 500;
+        }
+    }
+}

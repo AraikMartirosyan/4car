@@ -1,0 +1,28 @@
+.tireService {
+  padding: 50px 0 40px;
+}
+.tireService p {
+  font-size: 30px;
+}
+.tireService img {
+  max-width: 100%;
+  height: auto;
+  max-height: 1080px;
+}
+
+@media screen and (max-width: 1200px) {
+  .tireService p {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .tireService p {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .tireService p {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=tireService.css.map */

@@ -30,6 +30,9 @@
 .form-container textarea::placeholder {
   color: #C1D6E9;
 }
+.form-container #input-mail {
+  margin-bottom: 50px;
+}
 .form-container input, .form-container textarea {
   border: 0;
   padding: 10px 6px;

@@ -15,8 +15,9 @@
 .products-container .products-item__content {
   height: 210px;
   background-color: #1A6EC1;
-  padding: 30px 12px 2px;
+  padding: 30px 8px 2px;
   color: #fff;
+  text-align: center;
 }
 .products-container .products-item__content-title {
   font-size: 12px;
@@ -36,6 +37,7 @@
   margin-bottom: 10px;
 }
 .products-container .products-item__content-buy {
+  text-align: center;
   background-color: #fff;
   color: #1A6EC1;
   padding: 4px 6px;
@@ -46,6 +48,7 @@
   background-color: #e6e6e6;
 }
 .products-container .products-item__content-korzina {
+  text-align: center;
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: 2px;

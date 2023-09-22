@@ -35,6 +35,9 @@
                 margin-bottom: 14px;
                 font-weight: 600;
             }
+            b {
+                font-weight: 600;
+            }
             &:hover {
                 background-color: darken($color: #EBF2F8, $amount: 5);
                 color: #000;

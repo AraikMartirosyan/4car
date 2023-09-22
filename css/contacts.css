@@ -38,6 +38,9 @@
   margin-bottom: 14px;
   font-weight: 600;
 }
+.contacts-container__item b {
+  font-weight: 600;
+}
 .contacts-container__item:hover {
   background-color: #d8e6f1;
   color: #000;

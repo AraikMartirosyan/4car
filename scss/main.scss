@@ -13,6 +13,7 @@
 @import url(../css/blog.css);
 @import url(../css/about.css);
 @import url(../css/return.css);
+@import url(../css/cabinet.css);
 
 // intro page styles
 @import url(../css/main-page/partners.css);
@@ -40,6 +41,7 @@ input:focus {
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
 }
 
 html::-webkit-scrollbar-thumb {

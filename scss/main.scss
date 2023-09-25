@@ -127,4 +127,10 @@ html::-webkit-scrollbar {
 	text-shadow: 1px 1px #1A6EC1;
 }
 
+@media screen and (max-width: 576px) {
+    .rating-result span {
+        font-size: 26px;
+
+    }
+}
 

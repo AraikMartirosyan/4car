@@ -4,22 +4,24 @@ let productCountMinus = document.querySelector(".product-btn__count-minus");
 let productCountPlus = document.querySelector(".product-btn__count-plus");
 let productCountNum = document.querySelector(".product-btn__count-num");
 
-var productCountNum_num = 0;
 
-productCountPlus.onclick = function () {
-  productCountNum_num = productCountNum_num + 1;
-  productCountNum.innerHTML = productCountNum_num;
-}
-
-productCountMinus.onclick = function () {
-  if (productCountNum_num >= 1) {
-    productCountNum_num = productCountNum_num - 1;
+  if (productCountMinus !=null & productCountPlus != null) {
+    var productCountNum_num = 0;
     productCountNum.innerHTML = productCountNum_num;
-  }
-  
-}
+    productCountMinus.onclick = function () {
+      if (productCountNum_num >= 1) {
+        productCountNum_num = productCountNum_num - 1;
+        productCountNum.innerHTML = productCountNum_num;
+      }
+    }
+    productCountPlus.onclick = function () {
+      productCountNum_num = productCountNum_num + 1;
+      productCountNum.innerHTML = productCountNum_num;
+    }
 
-productCountNum.innerHTML = productCountNum_num;
+  }
+
+
 headerMobileBurger.onclick = function() {
   headerMobileBurger.classList.toggle("active-menu") 
   headerMobile.classList.toggle("active-menu") 

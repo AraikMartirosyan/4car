@@ -18,8 +18,11 @@
             margin-bottom: 30px;
             text-align: center;
         }
-        &__rating {
+        .rating-result {
             margin-bottom: 30px;
+            span {
+                font-size: 48px;
+            }
         }
         &__btn {
             font-size: 38px;
@@ -57,8 +60,10 @@
                 margin-bottom: 20px;
                 text-align: center;
             }
-            &__rating {
-                margin-bottom: 20px;
+            .rating-result {
+                span {
+                    font-size: 44px;
+                }
             }
             &__btn {
                 font-size: 20px;
@@ -136,9 +141,10 @@
                 margin-bottom: 20px;
                 text-align: center;
             }
-            &__rating {
-                margin-bottom: 20px;
-                width: 200px;
+            .rating-result {
+                span {
+                    font-size: 36px;
+                }
             }
             &__btn {
                 font-size: 18px;

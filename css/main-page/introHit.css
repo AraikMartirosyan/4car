@@ -20,8 +20,11 @@
   margin-bottom: 30px;
   text-align: center;
 }
-.introHit-cart__rating {
+.introHit-cart .rating-result {
   margin-bottom: 30px;
+}
+.introHit-cart .rating-result span {
+  font-size: 48px;
 }
 .introHit-cart__btn {
   font-size: 38px;
@@ -59,8 +62,8 @@
     margin-bottom: 20px;
     text-align: center;
   }
-  .introHit-cart__rating {
-    margin-bottom: 20px;
+  .introHit-cart .rating-result span {
+    font-size: 44px;
   }
   .introHit-cart__btn {
     font-size: 20px;
@@ -136,9 +139,8 @@
     margin-bottom: 20px;
     text-align: center;
   }
-  .introHit-cart__rating {
-    margin-bottom: 20px;
-    width: 200px;
+  .introHit-cart .rating-result span {
+    font-size: 36px;
   }
   .introHit-cart__btn {
     font-size: 18px;

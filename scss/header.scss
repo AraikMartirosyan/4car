@@ -1,5 +1,6 @@
 .header {
     padding: 10px 0;
+    
     &-white {
         a {
             color: #1A6EC1 !important;
@@ -106,6 +107,32 @@
             border-radius: 10px;
             color: #fff;
             padding: 6px 20px;
+        }
+        button {
+            background-color: transparent;
+            outline: 0;
+            border: 0;
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translate(0, -50%);
+            cursor: pointer;
+        }
+    }
+    &-search__result {
+        position: relative;
+        margin-top: 30px;
+        input {
+            border-radius: 12px;
+            background-color: #fff;
+            width: 100%;
+            padding: 24px;
+            outline: 0;
+            border: 0;
+            
+            &::placeholder {
+                color: #1A6EC1;
+            }
         }
         button {
             background-color: transparent;

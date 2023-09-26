@@ -54,7 +54,7 @@ html::-webkit-scrollbar {
 }
 
 .black-title {
-  font-size: 60px;
+  font-size: 52px;
   font-weight: 700;
   color: #000;
   text-align: center;
@@ -77,7 +77,7 @@ html::-webkit-scrollbar {
 
 @media screen and (max-width: 1400px) {
   .black-title {
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 700;
     color: #000;
     text-align: center;
@@ -86,7 +86,7 @@ html::-webkit-scrollbar {
 }
 @media screen and (max-width: 1200px) {
   .black-title {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
     color: #000;
     text-align: center;
@@ -95,7 +95,7 @@ html::-webkit-scrollbar {
 }
 @media screen and (max-width: 992px) {
   .black-title {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
     color: #000;
     text-align: center;
@@ -129,5 +129,16 @@ html::-webkit-scrollbar {
   .rating-result span {
     font-size: 26px;
   }
+}
+.search-result {
+  padding: 50px 0 50px;
+}
+.search-result p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.no_scroll {
+  overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */

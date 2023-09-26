@@ -6,11 +6,11 @@
         flex-wrap: wrap;
         h3 {
             margin-right: 10px;
-            font-size: 40px;
+            font-size: 30px;
             font-weight: 700;
         }
         &__review {
-            font-size: 18px;
+            font-size: 16px;
             margin-left: 5px;
         }
     }
@@ -28,7 +28,7 @@
 
     &-list {
         &__item {
-            font-size: 18px;
+            font-size: 16px;
             &-blue {
                 margin-left: 12px;
                 color: #1A6EC1;
@@ -38,10 +38,10 @@
     }
     
     &-btn {
-        font-size: 24px;
+        font-size: 20px;
 
         &__price {
-            font-size: 50px;
+            font-size: 40px;
             font-weight: 700;
         }
 
@@ -51,7 +51,7 @@
             align-items: center;
             justify-content: center;
             color: #72889B;
-            font-size: 50px;
+            font-size: 42px;
             font-weight: 600;
             &-num {
                 margin: 0 30px;
@@ -121,10 +121,10 @@
         &-title {
             h3 {
                 margin-right: 10px;
-                font-size: 30px;
+                font-size: 24px;
             }
             &__review {
-                font-size: 16px;
+                font-size: 14px;
                 margin-left: 5px;
             }
         }
@@ -137,15 +137,15 @@
     
         &-list {
             &__item {
-                font-size: 16px;
+                font-size: 14px;
             }
         }
         
         &-btn {
-            font-size: 20px;
+            font-size: 16px;
     
             &__price {
-                font-size: 36px;
+                font-size: 30px;
             }
     
             &__count {
@@ -201,10 +201,10 @@
         &-title {
             h3 {
                 margin-right: 10px;
-                font-size: 30px;
+                font-size: 20px;
             }
             &__review {
-                font-size: 16px;
+                font-size: 12px;
                 margin-left: 5px;
             }
         }
@@ -217,15 +217,15 @@
     
         &-list {
             &__item {
-                font-size: 16px;
+                font-size: 14px;
             }
         }
         
         &-btn {
-            font-size: 20px;
+            font-size: 16px;
     
             &__price {
-                font-size: 36px;
+                font-size: 30px;
             }
     
             &__count {
@@ -255,7 +255,7 @@
                 
                 &-price {
                     outline: 0;
-                    padding: 20px 10px;
+                    padding: 14px 10px;
                     border-radius: 10px 0 0 10px;
                     color: #fff;
                     background-color: #DB0022;
@@ -265,7 +265,7 @@
                 &-month {
                     margin-left: -10px;
                     border: 1px solid #DB0022;
-                    padding: 20px 10px;
+                    padding: 14 px 10px;
                     border-radius: 0 10px 10px 0;
                     outline: 0;
                     background-color: transparent;
@@ -302,7 +302,7 @@
         }
         
         &-btn {
-            font-size: 14px;
+            font-size: 12px;
     
             &__price {
                 font-size: 16px;
@@ -389,7 +389,7 @@
     vertical-align: middle;
     user-select: none;
     padding: 4px 12px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     transition:  0.15s ease-in-out;
     cursor: pointer;
@@ -428,17 +428,21 @@
 
   @media screen and (max-width: 1400px) {
     .product-content__title {
-        font-size: 34px;
+        font-size: 28px;
       }
+      .product-tabs>div {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
   }
 
   @media screen and (max-width: 1200px) {
     .product-content__title {
-        font-size: 30px;
+        font-size: 24px;
       }
     .product-tabs>label {
         padding: 2px 8px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
         transition:  0.15s ease-in-out;
         cursor: pointer;
@@ -449,13 +453,13 @@
       }
       .product-tabs>div {
         padding: 8px 12px;
-        font-size: 16px;
+        font-size: 14px;
     }
   }
 
   @media screen and (max-width: 992px) {
     .product-content__title {
-        font-size: 24px;
+        font-size: 20px;
       }
     .product-tabs>label {
         display: flex;
@@ -473,7 +477,7 @@
       }
       .product-tabs>div {
         padding: 8px 12px;
-        font-size: 16px;
+        font-size: 14px;
         }
   }
 
@@ -482,6 +486,6 @@
         font-size: 18px;
       }
       .product-tabs>div {
-        font-size: 14px;
+        font-size: 12px;
         }
   }

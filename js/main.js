@@ -25,6 +25,7 @@ let productCountNum = document.querySelector(".product-btn__count-num");
 headerMobileBurger.onclick = function() {
   headerMobileBurger.classList.toggle("active-menu") 
   headerMobile.classList.toggle("active-menu") 
+  document.body.classList.toggle("no_scroll")
 };
 
 
@@ -39,6 +40,7 @@ function stickyHeader() {
     headerMobile.classList.remove('sticky');
   }
 }
+
 
 
 

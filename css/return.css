@@ -2,11 +2,11 @@
   padding: 50px 0;
 }
 .return-title {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
 }
 .return p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -18,7 +18,7 @@
     font-size: 26px;
   }
   .return p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 1200px) {

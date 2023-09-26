@@ -2,11 +2,11 @@
   padding: 50px 0 20px;
 }
 .discount-title {
-  font-size: 55px;
+  font-size: 36px;
   font-weight: 700;
 }
 .discount-subtitle {
-  font-size: 23px;
+  font-size: 20px;
 }
 .discount-img {
   width: 100%;
@@ -17,20 +17,28 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .discount-title {
-    font-size: 48px;
+    font-size: 34px;
   }
   .discount-subtitle {
-    font-size: 22px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .discount-title {
+    font-size: 32px;
+  }
+  .discount-subtitle {
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 991px) {
   .discount-title {
-    font-size: 40px;
+    font-size: 30px;
   }
   .discount-subtitle {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 30px;
   }
   .discount-img {
@@ -39,10 +47,10 @@
 }
 @media screen and (max-width: 576px) {
   .discount-title {
-    font-size: 34px;
+    font-size: 28px;
   }
   .discount-subtitle {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 30px;
   }
 }

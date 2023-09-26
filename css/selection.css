@@ -14,7 +14,7 @@
   margin-bottom: 30px;
 }
 .selection-text {
-  font-size: 28px;
+  font-size: 20px;
 }
 .selection-cart {
   padding: 10px 20px;
@@ -78,16 +78,16 @@
     padding: 30px 0 10px;
   }
   .selection-title {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
   }
   .selection-text {
-    font-size: 24px;
+    font-size: 18px;
   }
   .selection-cart {
     padding: 10px 20px;
     text-align: center;
-    margin: 100px 0 30px;
+    margin: 50px 0 30px;
     height: 400px;
     position: relative;
   }
@@ -151,12 +151,12 @@
     font-weight: bold;
   }
   .selection-text {
-    font-size: 20px;
+    font-size: 16px;
   }
   .selection-cart {
     padding: 10px 20px;
     text-align: center;
-    margin: 100px 0 30px;
+    margin: 50px 0 30px;
     height: 400px;
     position: relative;
   }
@@ -223,7 +223,7 @@
   .selection-text {
     text-align: center;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 14px;
   }
   .selection-cart {
     padding: 10px 20px;

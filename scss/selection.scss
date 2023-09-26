@@ -15,7 +15,7 @@
     }  
 
     &-text {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     &-cart {
@@ -81,18 +81,17 @@
 @media screen and (max-width: 1400px) {
     .selection {
         &-title {
-            font-size: 30px;
+            font-size: 26px;
             font-weight: bold;
         }
         padding: 30px 0 10px;
-        &-tabs {}  
         &-text {
-            font-size: 24px;
+            font-size: 18px;
         }
         &-cart {
             padding: 10px 20px;
             text-align: center;
-            margin: 100px 0 30px;
+            margin: 50px 0 30px;
             height: 400px;
             position: relative;
             &__decor {
@@ -157,14 +156,13 @@
             font-weight: bold;
         }
         padding: 30px 0 10px;
-        &-tabs {}  
         &-text {
-            font-size: 20px;
+            font-size: 16px;
         }
         &-cart {
             padding: 10px 20px;
             text-align: center;
-            margin: 100px 0 30px;
+            margin: 50px 0 30px;
             height: 400px;
             position: relative;
             &__decor {
@@ -231,11 +229,10 @@
             text-align: center;
         }
         padding: 30px 0 10px;
-        &-tabs {}  
         &-text {
             text-align: center;
             margin-top: 20px;
-            font-size: 18px;
+            font-size: 14px;
         }
         &-cart {
             padding: 10px 20px;
@@ -314,9 +311,6 @@
             text-align: center;
         }
         padding: 30px 0 10px;
-        &-tabs {
-            
-        }  
     
         &-cart {
             padding: 10px 20px;

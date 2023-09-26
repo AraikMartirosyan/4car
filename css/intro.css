@@ -32,12 +32,12 @@
 
 .intro-404-link {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 22px;
   border-radius: 10px;
   position: relative;
   color: #fff;
   background-color: #1A6EC1;
-  padding: 15px;
+  padding: 12px;
   transition: 0.2s ease-in-out;
 }
 .intro-404-link:hover {
@@ -46,13 +46,14 @@
 }
 
 .intro-404-img {
-  max-width: 840px;
+  max-width: 700px;
   width: 100%;
   height: auto;
 }
 
 .title-404 {
   text-align: left;
+  margin-top: 12px !important;
 }
 
 @media screen and (max-width: 1400px) {
@@ -82,6 +83,9 @@
     max-width: 600px;
     width: 100%;
     height: auto;
+  }
+  .title-404 {
+    margin-top: 100px !important;
   }
   .introMain {
     display: flex;

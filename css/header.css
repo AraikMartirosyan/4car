@@ -113,6 +113,31 @@
   transform: translate(0, -50%);
   cursor: pointer;
 }
+.header-search__result {
+  position: relative;
+  margin-top: 30px;
+}
+.header-search__result input {
+  border-radius: 12px;
+  background-color: #fff;
+  width: 100%;
+  padding: 24px;
+  outline: 0;
+  border: 0;
+}
+.header-search__result input::placeholder {
+  color: #1A6EC1;
+}
+.header-search__result button {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
 .header-nav {
   margin-top: 20px;
   background-color: #fff;

@@ -18,13 +18,13 @@
   text-indent: 1%;
 }
 .introAbout-content__text {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1.6;
   margin-bottom: 30px;
 }
 .introAbout-content__btn {
-  font-size: 32px;
+  font-size: 28px;
   color: #fff;
   background-color: #1A6EC1;
   padding: 6px 12px;

@@ -40,7 +40,7 @@ function stickyHeader() {
     headerMobile.classList.remove('sticky');
   }
 }
-
+  
 
 
 

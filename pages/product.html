@@ -112,6 +112,17 @@
                             <div class="line line-3"></div>
                         </div>
                         <div class="header-mobile__burger-menu"><!-- .active-menu -->
+                            <div class="burger-menu__links burger-menu__socials">
+                                <a target="_blank" href="https://wa.me/+77064133556">
+                                    <img src="../images/icons/whatsapp-icon.png" alt="">
+                                </a>
+                                <a target="_blank" href="https://t.me/Focarkz_bot">
+                                    <img src="../images/icons/telegram-icon.png" alt="">
+                                </a>
+                                <a target="_blank" href="https://www.instagram.com/4carkz/">
+                                    <img src="../images/icons/instagram-icon.png" alt="">
+                                </a>
+                            </div>
                             <div class="burger-menu__links">
                                 <a href="tel:+77017448007">+7 (701) 744-80-07</a>
                                 <a href="tel:+77064133556">+7 (706) 413-35-56</a>
@@ -158,6 +169,7 @@
 
 
 <div class="product">
+
     <div class="container-lg">
 
         <div class="row mb-5">
@@ -273,6 +285,9 @@
                 <label for="product-tab-btn-4">Возврат и гарантия</label>
                 <input type="radio" name="product-tab-btn" id="product-tab-btn-5" value="">
                 <label for="product-tab-btn-5">Условия кредитования</label>
+                <input type="radio" name="product-tab-btn" id="product-tab-btn-6" value="">
+                <label for="product-tab-btn-6">Отзывы</label>
+                
             
                 <div id="product-content-1">
                   <h3 class="product-content__title mb-lg-5 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -552,11 +567,73 @@
                 </div>
                 <!-- /product-content-5 -->
 
+                <div id="product-content-6">
+                    <form action="#" class="mb-5 product-review__form d-flex flex-column align-items-start justify-content-start">
+                        <label class="mb-2 fw-bold" for="reviewer-name">Написать отзыв</label>
+                        <input required type="text" name="reviewer-name" id="reviewer-name" placeholder="Ваше имя" class="mb-2">
+                        <div class="rating-area">
+                            <input type="radio" id="star-5" name="rating" value="5">
+                            <label for="star-5" title="Оценка «5»"></label>	
+                            <input type="radio" id="star-4" name="rating" value="4">
+                            <label for="star-4" title="Оценка «4»"></label>    
+                            <input type="radio" id="star-3" name="rating" value="3">
+                            <label for="star-3" title="Оценка «3»"></label>  
+                            <input type="radio" id="star-2" name="rating" value="2">
+                            <label for="star-2" title="Оценка «2»"></label>    
+                            <input type="radio" id="star-1" name="rating" value="1">
+                            <label for="star-1" title="Оценка «1»"></label>
+                        </div>
+                        <textarea class="mb-4" name="" id="" cols="30" rows="2" maxlength="500" placeholder="Комментарий" required></textarea>
+                        <button type="submit">Отправить</button>
+                    </form>
+                    <!-- /product-review__form -->
+                    <div class="product-review mb-3">
+                        <div class="product-review__writer d-flex align-items-center">
+                            <div class="product-review__writer-img">
+                                <img src="../images/icons/person-cabinet.png" alt="">
+                            </div>
+                            <div class="product-review__writer-name">
+                                Марат
+                            </div>
+                            <div class="rating-result">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span class="active"></span>    
+                                <span class="active"></span>
+                            </div>
+                        </div>
+                        <div class="product-review__text">Мягкая, удобно управляется, советую покупать</div>
+                    </div>
+                    <!-- /product-review -->
+                    <div class="product-review mb-3">
+                        <div class="product-review__writer d-flex align-items-center">
+                            <div class="product-review__writer-img">
+                                <img src="../images/icons/person-cabinet.png" alt="">
+                            </div>
+                            <div class="product-review__writer-name">
+                                Ержан
+                            </div>
+                            <div class="rating-result">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span class="active"></span>    
+                                <span class="active"></span>
+                            </div>
+                        </div>
+                        <div class="product-review__text">Шины мягкие безшумные, советую мне понравились</div>
+                    </div>
+                    <!-- /product-review -->
+                </div>
+                <!-- /product-content-6 -->
+
             </div>
         </div>
         <!-- /row -->
 
     </div>
+
 </div>
 <!-- /product -->
 
@@ -573,10 +650,10 @@
                 </h5>
                 <form action="#" class="form-container">
                     <label for="input-name">Полное имя</label>
-                    <input type="text" name="input-name" id="input-name" placeholder="Пример">
+                    <input type="text" name="input-name" id="input-name" placeholder="Пример" required>
                     <label for="input-mail">Введите адрес электронной почты</label>
-                    <input type="email" name="input-mail" id="input-mail" placeholder="Пример@email.com">
-                    <label for="input-text">Ваши сообщения</label>
+                    <input type="email" name="input-mail" id="input-mail" placeholder="Пример@email.com" required>
+                    <label for="input-text">Ваше сообщение</label>
                     <textarea name="input-text" id="input-text" cols="30" rows="4" placeholder="Текст"></textarea>
                     <a href="#" class="form-container__btn">
                                 <span>

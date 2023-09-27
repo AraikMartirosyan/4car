@@ -21,6 +21,7 @@
             background-color: #1A6EC1;
             padding: 30px 8px 2px;
             color: #fff;
+            border-radius: 10px;
             
             &-title {
                 font-size: 12px;
@@ -71,6 +72,7 @@
                 background-color: #FF0000;
                 color: #fff;
                 transition: .2s ease-in-out;
+                border-radius: 5px;
                 &:hover {
                     background-color: darken($color: #FF0000, $amount: 10);
                 }
